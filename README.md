@@ -15,8 +15,6 @@ Animations need to move in a particular order, based on previous Olympic leaderb
 
 Animation order:
 
-Phase One Animation
-
 1. Logo of event flip in x (so, turning from face down left to face up right).
 2. Transition fade in of outline title bar from left to right. 
 3. Colour fade in through title bar left to right. 
