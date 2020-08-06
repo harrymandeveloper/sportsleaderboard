@@ -1,0 +1,50 @@
+{
+  "name": "sportsleaderboard",
+  "version": "1.0.0",
+  "description": "Sports Leaderboard",
+  "main": "index.html",
+  "scripts": {
+    "build": "babel src -d build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "watch 'npm run build' src",
+    "watch": "npm-watch"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harrymandeveloper/sportsleaderboard.git"
+  },
+  "keywords": [
+    "sports",
+    "leaderboard",
+    "vtr",
+    "tv"
+  ],
+  "author": "Harry Man",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harrymandeveloper/sportsleaderboard/issues"
+  },
+  "homepage": "https://github.com/harrymandeveloper/sportsleaderboard#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "gulp": "^4.0.2",
+    "watch": "^1.0.2"
+  },
+  "watch": {
+    "build": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "js,jsx"
+    }
+  },
+  "dependencies": {
+    "animate.css": "^4.1.0"
+  }
+}
