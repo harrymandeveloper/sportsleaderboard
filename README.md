@@ -2,20 +2,18 @@
 
 A sports event leaderboard in the style of television broadcast VTR leaderboards, built in 2020, styled on the London 2012 Olympics.
 
-This was designed for a creative project for Festival Stoke to showcase the leaders in an online 'Creative Olympics' during the coronavirus pandemic.
+Built in 24 hours, this was designed for a creative project for Festival Stoke to showcase the leaders in an online 'Creative Olympics' during the coronavirus pandemic.
 
 This project was created by <a href="www.fullybookedtheatre.com">Fully Booked Theatre</a> an interactive children's dance theatre company.
-
-## Installation
-
-Installation details TBC
 
 
 ## Design
 
 Animations need to move in a particular order, based on previous Olympic leaderboards for sporting events.
 
-Animation order:
+## Stretch Goals
+
+On a standard Olympics VTR of the kind seen in Rio in 2016 and the London 2012 Olympics, the animations run in this order. I wasn't quite able to implement all of these animations, but this is something I could look at doing in the future.
 
 1. Logo of event flip in x (so, turning from face down left to face up right).
 2. Transition fade in of outline title bar from left to right. 
@@ -33,8 +31,10 @@ Repeat 6 - 9 until leaderboard complete.
 
 Extra details - each list item must alternate in colour.
 
-Based on animations at Men's Road Race at Rio: 
+Link to the Men's Road Race at Rio: 
 https://youtu.be/rGyd8YmulWk?t=115
+
+Also to add: Gulp and Watch. So far the watch will work and build the file, but there are a few additions such as minification that I would like to incorporate.
 
 
 
