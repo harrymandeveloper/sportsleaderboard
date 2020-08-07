@@ -44,7 +44,5 @@
       "extensions": "js,jsx"
     }
   },
-  "dependencies": {
-    "animate.css": "^4.1.0"
-  }
+  "dependencies": {}
 }
